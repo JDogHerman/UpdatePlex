@@ -7,7 +7,11 @@ You will need to put your plex login information into the variables.php file.
 This works for me with Ubuntu64 bit, hope it works for you.
 
 Requirements:
-PHP
-PHP-curl
+PHP & PHP-curl
+
+Usage:
+sudo ./updateplex.sh
+
+
 
 PHP code orginally written by https://www.youtube.com/watch?v=_kQN-3aNCeI

@@ -1,4 +1,14 @@
 #!/bin/bash
+#This script will log into plex and download the newest plexpass version for Ubnutu 64 bit
+if [ ! -f variables.php ]; then
+    echo "<?php" > variables.php
+    echo "    \$login = '';" >> variables.php
+    echo "    \$password = '';" >> variables.php
+    echo "?>" >> variables.php
+    echo "Please open variables.php in an editor of choice and complete the required fields before running again."
+    exit 1
+fi
+
 touch cookie.txt
 chmod 777 cookie.txt
 
