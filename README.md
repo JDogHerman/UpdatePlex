@@ -1,6 +1,8 @@
 # UpdatePlex
 
-This is a collection of php and shell scripts that will pull the newest plexpass file for ubunutu and install it.
+This is a collection of php and shell scripts that will pull the newest plexpass setup for ubunutu and install it.
+
+It will also compare your current version and will not install if not needed.
 
 You will need to put your plex login information into the variables.php file.
 
