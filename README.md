@@ -12,6 +12,11 @@ PHP & PHP-curl
 Usage:
 sudo ./updateplex.sh
 
+or use 
+
+sudo ./updateplex.sh --force
+
+to force the install (good to be used with a cron job)
 
 
 PHP code orginally written by https://www.youtube.com/watch?v=_kQN-3aNCeI
